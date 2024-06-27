@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* height: 100vh; */
+    /* background-color: black; */
+    min-height: 100vh;
+    color: white;
+    background-image: url(img/fondo/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background: rgba(54, 54, 54, 0.39);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 5%;
+    width: 10%;
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    width: 200px;
+    margin-left: 10%;
+}
+
+nav{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    list-style: none;
+    align-items: center;
+    margin-right: 5%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* PRODUCTOS */
+
+main h1{
+    text-align: center;
+}
+
+
+.productos{
+    display:flex;
+    column-gap: 50px;
+}
+
+.productos a{
+    color:purple;
+}
+
+#bestpro1 a{
+    text-decoration: none;
+}
+
+#bestpro2 a{
+    text-decoration: none;
+}
+
+#bestpro3 a{
+    text-decoration: none;
+}
+
+#bestpro1{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+#bestpro2{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+#bestpro3{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+#bestpro1 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#bestpro2 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#bestpro3 img{
+    height: 132px;
+    width: 220px;
+    margin-top: 10px;
+}
+
+
+/* PRODUCTOS 2 */
+
+#pc1 a{
+    text-decoration: none;
+}
+
+#pc2 a{
+    text-decoration: none;
+}
+
+#pc3 a{
+    text-decoration: none;
+}
+
+#pc1{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+#pc2{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+#pc3{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+#pc1 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#pc2 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#pc3 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+
+
+#laptop1 a{
+    text-decoration: none;
+}
+
+#laptop2 a{
+    text-decoration: none;
+}
+
+
+#laptop1{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+#laptop2{
+    background: rgba(73, 73, 73, 0.315);
+    text-align: center;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+#laptop1 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#laptop2 img{
+    height: 150px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+
+/* STAFF */
+
+.equipo{
+    display:flex;
+    column-gap: 50px;
+    height: 50%;
+    width: 80%;
+    background: rgba(73, 73, 73, 0.315);;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#titulo{
+    margin-top: 5%;
+}
+
+#staff1 h2, h3, p{
+    text-align: center;
+}
+
+#staff2 h2, h3, p{
+    text-align: center;
+}
+
+
+#staff1 img{
+    height:250px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+#staff2 img{
+    height:250px;
+    width: 500px;
+}
+
+
+/* NOTICIAS */
+
+.noticias{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    font-size: 15px;
+}
+
+#titulo h1{
+    text-align: center;
+}
+
+#noticia1{
+   /* height: 35%; */
+   /* width: 35%; ¨*/
+    margin-right: 2%;
+}
+
+#noticia1 a{
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+#noticia1 h3, p{
+    text-align: center;
+}
+
+#noticia1 img{
+    height: 150px;
+    width: 250px;
+    margin-left: 22%;
+}
+
+
+#noticia2{
+    margin-right: 2%;
+    
+}
+
+#noticia2 h3, p{
+    text-align: center;
+}
+
+#noticia2 img{
+    height: 150px;
+    width: 250px;
+    margin-left: 20%;
+}
+
+#noticia2 a{
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+#noticia3{
+    margin-right: 2%;
+}
+
+#noticia3 h3, p{
+    text-align: center;
+}
+
+#noticia3 img{
+    height: 150px;
+    width: 250px;
+    margin-left: 20%;
+}
+
+#noticia3 a{
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+.content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.content a {
+    color: white;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    aspect-ratio: 1;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+footer{
+    display:flex;
+    height: 20px;
+    width: 100%;
+    background: rgba(54, 54, 54, 0.39);
+    justify-content: space-between;
+    align-items: center;
+    padding:2em;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+}
+
+a i{
+    margin-bottom: 2%;
+}
+
+/* FORMULARIO REGISTRO */
+
+
+
+#formulario-registro{
+    background: rgba(255, 115, 0, 0.445);
+    height: 500px;
+    width: 100%;
+}
+
+#formulario-registro form{
+    width: 400px;
+    margin: 0 auto;
+/*  background: red; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 8%;
+}
+
+#formulario-registro .entrada-form input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#formulario-registro button{
+    padding: 8px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 15;
+}
+
+#formulario-registro label{
+    display:flex;
+    gap:6px;
+    align-items: center;
+}
+
+#formulario-registro h2{
+    text-align: center;
+}
+
+#formlario-registro option{
+    padding: 10px;
+}
+
+#btn{
+    padding: 8px;
+    border: none;
+    margin-left: 128px;
+    margin-top: 15;
+}
+
+/* PUBLICIDAD ASIDE */
+
+aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 80%;
+    background-color: rgba(54, 54, 54, 0.753);
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 60px;
+}
+
+#publi1{
+    margin-top: 15%;
+}
+
+#publi2{
+    margin-top: 15%;
+}
+
+#publi3{
+    margin-top: 20%;
+}
+
+#publi1 img{
+    height: 80px;
+    width:120px
+}
+
+#publi2 img{
+    height: 80px;
+    width:120px
+}
+
+#publi3 img{
+    height: 80px;
+    width:120px
+}
